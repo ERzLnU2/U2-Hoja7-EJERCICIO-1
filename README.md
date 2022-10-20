@@ -1,8 +1,6 @@
 # U2-Hoja7-EJERCICIO-1
 JAVA POO Rectangulo: Diagonal y área
 
-```java
-/*
 1.- Diseña una clase llamada Rectangulo que contenga:
 
 • Dos atributos privados de tipo entero: largo y ancho
@@ -16,8 +14,9 @@ d. Un método llamado area que devuelve el área del rectángulo
 e. Un método llamado diagonal que devuelve el valor de la diagonal (con decimales)
 
 Desde el método main() de la clase principal probar su funcionamiento.
-*/
-package com.solomongo.ejercicio1;
+
+```java
+
 public class Ejercicio1 {
     public static void main(String[] args) {
        
@@ -38,10 +37,6 @@ public class Ejercicio1 {
 ![7](https://user-images.githubusercontent.com/80227002/197076701-92fe6ccd-a69f-4582-b971-f28099fa69a9.png)
 
 ```java
-/**
- * @author Daw120
- */
-package com.solomongo.ejercicio1;
 public class Rectangulo {
   
     //atributos
@@ -90,6 +85,5 @@ public class Rectangulo {
     return diagonal=largo*Math.sqrt(2);
     }
 }
-
 
 ```
